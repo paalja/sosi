@@ -1,5 +1,6 @@
 street = "NESEVEIEN"
-point = "PUNKTID"
+point = "PUNKT-"
+
 
 def readfile():  # put domains in file in to list called 'domains'
     domains = []

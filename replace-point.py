@@ -1,4 +1,4 @@
-street = "NESEVEIEN"
+street = "SNEHVITVEI"
 point = "PUNKT-"
 
 
@@ -6,12 +6,12 @@ def readfile():  # put domains in file in to list called 'domains'
     domains = []
     newfile = []
     namecount = 0
-    file = open('newfile.txt', 'w')
+    file = open('output.txt', 'w')
 
-    with open('neseveien.kof', 'r') as infile:
+    with open('input.kof', 'r') as infile:
         for line in infile:
             namecount += 1
-            he = format(namecount, '03')
+            he = format(namecount, '04')
             line = line.strip()
             digg = point+he
             x = line.replace(street, digg)
